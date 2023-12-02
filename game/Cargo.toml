@@ -1,0 +1,11 @@
+[package]
+name = "game"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Local dependencies
+game_gui_components = { path = "../game_gui_components" }
+# Remote dependencies
+bevy.workspace = true
+bevy-inspector-egui = "0.20"
